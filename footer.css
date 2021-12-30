@@ -1,0 +1,19 @@
+footer {
+    display: block;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(101, 101, 119);
+    margin-top: 7px;
+    padding: 20px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+footer .umwaka {
+    color: yellow;
+    font-weight: bold;
+    font-size: 18;
+}

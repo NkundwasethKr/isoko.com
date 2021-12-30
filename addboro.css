@@ -1,0 +1,146 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    .umutwe {
+        width: 100%;
+        margin-left: 3%;
+        margin-right: 3%;
+        height: auto;
+        background-color: rgb(181, 202, 221);
+    }
+    
+    header {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 20;
+        text-align: center;
+        padding: 15px;
+        color: rgb(0, 110, 255);
+    }
+    
+    .top {
+        width: auto;
+        height: auto;
+        background-color: rgb(168, 245, 213);
+        margin-bottom: 15px;
+        margin-left: 3%;
+    }
+    
+    .top a {
+        left: 0;
+        text-decoration: none;
+        display: inline-block;
+        padding: 13px;
+        font-size: 15;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: white;
+        background-color: lime;
+    }
+    
+    .top a:hover {
+        background-color: rgb(14, 158, 206);
+    }
+    
+    .side {
+        float: left;
+        width: 10%;
+        height: 100%;
+        background-color: rgb(207, 228, 247);
+        margin-left: 3%;
+    }
+    
+    .side a {
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        font-size: 15;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: white;
+        background-color: lime;
+    }
+    
+    .side a:hover {
+        background-color: rgb(14, 158, 206);
+    }
+    
+    .content {
+        float: left;
+        width: 70%;
+        height: 100%;
+        margin-left: 2%;
+    }
+    
+    ;
+    .amamaza {
+        float: left;
+        right: 0;
+        width: 10%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        margin-right: 3%;
+    }
+    
+    div.amamaza {
+        float: left;
+        width: 150px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        padding-top: 7px;
+    }
+    
+    div.ijambo {
+        padding: 10px;
+    }
+    
+    footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(101, 101, 119);
+        margin-top: 7px;
+        padding: 20px;
+        position: fixed;
+        color: white;
+        text-align: center;
+    }
+    
+    footer .umwaka {
+        color: yellow;
+        font-weight: bold;
+        font-size: 18;
+    }
+    
+    @media only screen and (max-width:620px) {
+        /* For mobile phones: */
+        .umutwe,
+        .side,
+        .top,
+        .amamaza,
+        .content {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width:620px) {
+        .content {
+            width: 48%;
+            float: left;
+        }
+    }
+    
+    @media only screen and (max-width:620px) {
+        .side {
+            float: left;
+            width: 22%;
+        }
+    }
+    
+    @media only screen and (max-width:620px) {
+        div.amamaza {
+            float: left;
+            width: 22%;
+        }
+    }

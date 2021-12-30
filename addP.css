@@ -1,0 +1,52 @@
+body {
+    /*background-image: url("userPics/ibiti.jpg");
+    background-repeat: no-repeat;*/
+    background-position: center;
+    width: 90%;
+}
+
+.up fieldset {
+    background-color: rgb(247, 213, 212);
+    border-radius: 12px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border-color: rgb(0, 174, 255);
+    position: relative;
+}
+
+th {
+    text-align: left;
+    color: rgb(26, 39, 51);
+    font-weight: bold;
+    font-size: 17;
+}
+
+.up button {
+    float: left;
+    background-color: rgb(89, 240, 44);
+    display: block;
+    margin-top: 6px;
+    margin-left: 3px;
+    border-width: 0ch;
+    border-radius: 3px;
+    color: blue;
+    font-size: 20;
+}
+
+.up h1 {
+    font-size: 14;
+    color: blue;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.buto:hover {
+    color: white;
+}
+
+.message {
+    color: red;
+    font-weight: bold;
+    font-size: 8;
+}
